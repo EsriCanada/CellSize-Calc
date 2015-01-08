@@ -14,7 +14,7 @@ The formula used is:
 Cell Size = Scale * 0.0254 / 96
 Scale = Cell Size * 96 / 0.0254
 
-*Currently, this tool assumes the coordinate system of your data frame is using* ***metres***.*
+*Currently, this tool assumes the coordinate system of your data frame is using* ***metres***.
 
 See details page on ArcGIS Online: [Cell Size Calculator](http://www.arcgis.com/home/item.html?id=749fc5ac2f884b16a8edefb5c14873ba)
 
