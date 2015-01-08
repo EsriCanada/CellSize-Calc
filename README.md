@@ -14,7 +14,9 @@ The formula used is:
 Cell Size = Scale * 0.0254 / 96
 Scale = Cell Size * 96 / 0.0254
 
-See details page on ArcGIS Online: [CellSize Calculator](http://www.arcgis.com/home/item.html?id=749fc5ac2f884b16a8edefb5c14873ba)
+*Currently, this tool assumes the coordinate system of your data frame is using* ***metres***.*
+
+See details page on ArcGIS Online: [Cell Size Calculator](http://www.arcgis.com/home/item.html?id=749fc5ac2f884b16a8edefb5c14873ba)
 
 ####Quick Start
 - [Download](https://github.com/EsriCanada/CellSize-Calc/archive/master.zip) the repo zip file and extract to your machine
@@ -33,3 +35,4 @@ Tested at ArcGIS Desktop 10.2.2.
 
 #####Future Improvements
 - Report the Cell Size automatically when the map scale changes without the need for the button click
+- The tool should account for all linear and angular units (Geographic and Projected coordinate systems) possible in ArcMap
