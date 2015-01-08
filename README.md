@@ -1,6 +1,8 @@
 CellSize-Calc
 =============
 
+![CellSize Logo](https://github.com/EsriCanada/CellSize-Calc/blob/master/Images/CellSize_icon.png)
+
 This simple ArcMap addin contains a toolbar with three button commands that helps to quickly convert between map scale and cell size.
 
 The combo box/text box reports the cell size of the current scale when the button is clicked.  The user can also manually type a cell size value to zoom to the corresponding map scale.  Keeps a history of recently viewed cell sizes which can be cleared with the second button.  Some logging messages can be found if the python window is open.
